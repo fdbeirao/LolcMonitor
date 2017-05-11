@@ -1,0 +1,4 @@
+<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+<script>
+  document.fakeValvesElm.FakeValvesMain.fullscreen();
+</script>

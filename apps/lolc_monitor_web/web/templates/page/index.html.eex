@@ -1,0 +1,6 @@
+<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+<script>
+  document.mainElm.Main.fullscreen({
+    webSocketsOrigin: location.origin.replace(/http/i, 'ws'),
+  });
+</script>
